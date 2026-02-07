@@ -1,0 +1,2 @@
+rootProject.name = "MicMixer"
+include(":app")

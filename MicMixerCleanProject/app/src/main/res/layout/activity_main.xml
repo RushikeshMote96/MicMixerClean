@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <Button android:id="@+id/btnMic" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Mic ON / OFF"/>
+    <SeekBar android:id="@+id/micVolume" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="100"/>
+    <Button android:id="@+id/btnMusic" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Music Play / Pause"/>
+    <SeekBar android:id="@+id/musicVolume" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="100"/>
+    <Button android:id="@+id/btnEcho" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Echo ON / OFF"/>
+    <Button android:id="@+id/btnNoise" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Noise Reduction ON / OFF"/>
+    <Button android:id="@+id/btnRec" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Start / Stop Recording"/>
+</LinearLayout>
